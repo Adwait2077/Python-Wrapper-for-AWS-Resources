@@ -39,7 +39,7 @@ key_name = 'StoredNameInS3Bucket.txt'
 -Using the S3 resource (s3), it accesses the specified bucket (bucket_name) and uses the put_object method to upload the file. The Key parameter is set to the specified key_name, and the file content is set as the Body.
 -After the file is successfully uploaded, a message is printed indicating that the file has been uploaded to S3.
 
-##Similarly for Downloading:
+-Similarly for Downloading:
 -The function initiates the process by printing a message indicating that the file is being downloaded from Amazon S3.
 -It then uses the S3 resource (s3) to access the specified S3 bucket (bucket_name2).
 -The download_file method is called to download the file specified by key_name2 from the S3 bucket. The downloaded file is saved locally with the name file_name2.
